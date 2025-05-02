@@ -1,2 +1,2 @@
 # vsdelgado17.github.io
-Mental Health Application
+My Personal Website
