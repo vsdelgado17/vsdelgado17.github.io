@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: #FFF6DB;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: #FF8484;
+    font-size: 100px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: monospace;
+    display: inline-block;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 34ch;
+    animation: type 2.5s steps(34) forwards;
+}
+
+p{
+    color: #FF8484;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+@keyframes type {
+    from {width: 0;}
+    to {width: 34ch;}
+}
+
+#aboutMeGif, #projectsGif, #contactMeGif{
+    width: 75px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#aboutMeGif:hover, #projectsGif:hover, #contactMeGif:hover{
+    top: -10px;
+}
